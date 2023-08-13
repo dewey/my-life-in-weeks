@@ -1,0 +1,35 @@
+# github.com/barasher/go-exiftool v1.10.0
+## explicit; go 1.13
+github.com/barasher/go-exiftool
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+# github.com/go-chi/chi/v5 v5.0.10
+## explicit; go 1.14
+github.com/go-chi/chi/v5
+# github.com/go-kit/log v0.2.1
+## explicit; go 1.17
+github.com/go-kit/log
+github.com/go-kit/log/level
+# github.com/go-logfmt/logfmt v0.5.1
+## explicit; go 1.17
+github.com/go-logfmt/logfmt
+# github.com/jayco/go-emoji-flag v0.0.0-20190810054606-01604da018da
+## explicit; go 1.12
+github.com/jayco/go-emoji-flag
+# github.com/jmoiron/sqlx v1.3.5
+## explicit; go 1.10
+github.com/jmoiron/sqlx
+github.com/jmoiron/sqlx/reflectx
+# github.com/mattn/go-sqlite3 v1.14.6
+## explicit; go 1.12
+github.com/mattn/go-sqlite3
+# github.com/peterbourgon/ff/v3 v3.4.0
+## explicit; go 1.18
+github.com/peterbourgon/ff/v3
+github.com/peterbourgon/ff/v3/internal
+# github.com/pressly/goose/v3 v3.15.0
+## explicit; go 1.19
+github.com/pressly/goose/v3
+github.com/pressly/goose/v3/internal/dialect
+github.com/pressly/goose/v3/internal/dialect/dialectquery
+github.com/pressly/goose/v3/internal/sqlparser

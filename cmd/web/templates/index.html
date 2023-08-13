@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Life in Weeks</title>
+</head>
+<body class="font-sans">
+<div class="bg-white py-12 bg-gradient-to-t from-green-100 to-green-300">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+            <p class="text-base font-semibold leading-7">My Life in Weeks</p>
+            <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900">Based on the countries I've taken photos in</h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">This is the output of a script scanning all images in my
+                personal Photos.app library, determining where they were taken and then bucketing them by week number.
+                Inspired by <a href="https://waitbutwhy.com/2014/05/life-weeks.html" class="underline decoration-green-500 decoration-2 underline-offset-4 hover:text-green-500">Wait but Why</a> and <a
+                        href="https://howisfelix.today" class="underline decoration-green-500 decoration-2 underline-offset-4 hover:text-green-500">KrauseFx's project</a>.</p>
+        </div>
+    </div>
+</div>
+
+
+<table class="border-collapse border-spacing-y-4 border-spacing-x-4 border border-slate-300">
+    {{ range $key, $value := . }}
+    {{ if eq $key 0000 }}
+    <thead class="bg-green-100">
+    <tr class="border border-slate-300">
+        <td class="border border-slate-100 w-14 place-content-center">Year / Week</td>
+        {{ range $value }}
+        <td class="border border-slate-100 w-14 place-content-center">{{ .Number }}</td>
+        {{ end }}
+    </tr>
+    </thead>
+    {{ end }}
+    {{ if ne $key 0000 }}
+    <tr class="border border-slate-300">
+        <td class="border border-slate-100 w-14 items-center">{{ $key }}</td>
+        {{ range $value }}
+        <td class="border border-slate-100 w-14 items-center">{{ toEmoji .Country }}</td>
+        {{ end }}
+    </tr>
+    {{ end }}
+    {{ end }}
+</table>
+</body>
+</html>
