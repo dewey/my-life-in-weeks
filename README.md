@@ -8,7 +8,7 @@ I decided to do it based on the EXIF data of my personal photo collection in Pho
 
 Here's a work in progress screenshot, with around 50% of my images correctly tagged with the location (I ran out of API credits).
 
-<img width="1918" alt="Screenshot 2023-08-14 at 19 07 58 png@2x" src="https://github.com/dewey/my-life-in-weeks/assets/790262/7f0763f0-2f65-469d-82ac-d1605258ebe6">
+<img width="1918" alt="Screenshot 2023-08-14 at 19 07 58 png@2x" src="https://github.com/dewey/my-life-in-weeks/assets/790262/357046d1-4f7a-4e7f-a331-a6028a288a12">
 
 
 ## Usage
