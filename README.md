@@ -27,6 +27,8 @@ While the data is importing you can already watch the progress by starting the w
 
 ### Import data
 
+Make sure [Exiftool](https://exiftool.org) is installed and available in your $PATH.
+
 Run `./run_develop.sh` to scan your Photos.app library.
 
 ### Generate report
