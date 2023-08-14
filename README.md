@@ -8,6 +8,9 @@ I decided to do it based on the EXIF data of my personal photo collection in Pho
 
 Here's a work in progress screenshot, with around 50% of my images correctly tagged with the location (I ran out of API credits).
 
+<img width="1918" alt="Screenshot 2023-08-14 at 19 07 58 png@2x" src="https://github.com/dewey/my-life-in-weeks/assets/790262/7f0763f0-2f65-469d-82ac-d1605258ebe6">
+
+
 ## Usage
 
 This is a two-step process, first we are scanning the Photos.app library and extracting the GPS coordinates. Then we use a service like [Positionstack.com](http://positionstack.com) to reverse geocode these into Country / City information.
